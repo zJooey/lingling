@@ -3,9 +3,9 @@
 </template>
 
 <script>
-    export default {
-        name: "dashboard"
-    }
+export default {
+  name: 'Dashboard'
+}
 </script>
 
 <style scoped>
