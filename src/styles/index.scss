@@ -11,6 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  font-size: 16px;
 }
 
 label {
@@ -53,4 +54,77 @@ div:focus {
      clear: both;
      height: 0;
    }
+}
+
+/*常用分辨率 1280~1920使用12~18字体*/
+@media (min-width: 800px) and (max-width: 800px) {
+  body {
+    font-size: 7.5px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1024px) {
+  body {
+    font-size: 9.6px;
+  }
+}
+
+@media (min-width: 1152px) and (max-width: 1152px) {
+  body {
+    font-size: 9.6px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1280px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1360px) and (max-width: 1360px) {
+  body {
+    font-size: 12.75px;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1366px) {
+  body {
+    font-size: 12.80625px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1400px) {
+  body {
+    font-size: 13.125px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1440px) {
+  body {
+    font-size: 13.5px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1600px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1680px) and (max-width: 1680px) {
+  body {
+    font-size: 15.75px;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 1920px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 2560px) and (max-width: 2560px) {
+  body {
+    font-size: 24px;
+  }
 }
